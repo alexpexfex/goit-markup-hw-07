@@ -43,17 +43,15 @@
 }
 
 .nav-logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 80px;
+  font-size: 26px;
+  line-height: 1.19;
   font-family: raleway, sans-serif;
   color: #2196f3;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .span-color {
@@ -75,14 +73,14 @@
   display: -ms-flexbox;
   display: flex;
   padding: 32px 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   margin-left: auto;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2%;
+  line-height: 1.14;
   font-family: roboto, sans-serif;
   color: #212121;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 2%;
   position: relative;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -103,7 +101,7 @@
 .nav-link.active::after {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   background: #2196f3;
   content: '';
   width: 100%;
@@ -133,12 +131,12 @@
 .contact-link {
   padding: 0;
   margin: 0;
-  color: #757575;
-  font-family: roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
+  color: #757575;
+  font-family: roboto, sans-serif;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
