@@ -1,0 +1,16 @@
+.nav-logo {
+  display: flex;
+  @extend %links;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 80px;
+
+  font-family: $logo-font, $secondary-font;
+  color: $logo-text-color;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.span-color {
+  color: $title-text-color;
+}

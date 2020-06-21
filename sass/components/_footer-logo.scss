@@ -1,0 +1,37 @@
+.footer {
+  background-color: $footer-bcg-color;
+}
+.container-footer {
+  display: flex;
+  padding-top: 48px;
+  padding-bottom: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: baseline;
+  /* justify-content: space-between; */
+  border-bottom: 1px Solid rgba(255, 255, 255, 0.1);
+}
+
+.adress {
+  margin-right: 69px;
+}
+.logo {
+  margin-bottom: 10px;
+}
+
+.logo-foot {
+  @extend %list;
+}
+.footer-logo {
+  @extend %links;
+  font-style: normal;
+  font-family: $logo-font;
+  color: $logo-text-color;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.19;
+}
+
+.span {
+  color: $primary-bcg-color;
+}

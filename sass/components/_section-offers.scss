@@ -1,0 +1,62 @@
+.section-offers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  border-bottom: 1px solid #ececec;
+}
+.section-title {
+  display: block;
+  @extend %list;
+
+  font-family: $primary-font;
+  color: $title-text-color;
+  font-size: 36px;
+  line-height: 1.31;
+  text-align: center;
+}
+.section-container {
+  @extend %list;
+  display: flex;
+  justify-content: center;
+}
+.pictures-image {
+  justify-content: center;
+  width: calc((100% - 90px) / 4);
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.advantages {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-size: 70px;
+  background-color: $section-bgc-color;
+}
+.section-caption {
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+
+  color: $title-text-color;
+  font-family: $primary-font;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.text-caption {
+  display: block;
+  @extend %list;
+  font-family: $primary-font;
+  color: $primary-text-color;
+  font-style: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}

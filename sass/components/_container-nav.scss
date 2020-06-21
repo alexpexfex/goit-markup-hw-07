@@ -1,0 +1,10 @@
+.container-nav {
+  @extend %block;
+  display: flex;
+  align-items: center;
+}
+.nav-main {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
